@@ -38,15 +38,13 @@ a.k.a Graphical User interface version 0.1
 
 how to run:
 1. Open Command Prompt (Windows) or Terminal (MacOsX, Linux)
-2. Change to folder containing code e.g cd \
+2. Change to folder containing code e.g cd \downloaded_here 
 3. Run Python with downloader script
   
 
-[First GUI, very Spartan looking](./doc/downloader_v_0_1.png)
+<!-- [First GUI, very Spartan looking](./doc/downloader_v_0_1.png)-->
 
-![image info](doc/ownloader_v_0_1.png)
-
-![GUI#github ](https://github.com/dusan-dakic/chess_prep_tools/blob/main/doc/downloader_v_0_1.png)
+![GUI#github](https://github.com/dusan-dakic/chess_prep_tools/blob/main/doc/downloader_v_0_1.png)
 
 Minimum Instructions: 
 :one: replace default link shown in :one: link 
@@ -74,16 +72,16 @@ The full list of tournaments & games downloaded is here:
 | `2023 MCC Clasic Round Robin`          | https://view.livechesscloud.com/#8cf474a3-84a2-4fe8-ab2c-aa93562ebff4 | 9      | 18    |
 | `2024 Chess Artists Alegro`            | https://view.livechesscloud.com/#12b35db7-f34f-4be9-95e9-5fa4d7912076 | 7      | 11*   |
 | `2024 Victorian Open`                  | https://view.livechesscloud.com/#8b472897-2556-40b5-bc41-3adaeda50b0e | 7      | 28    |
+| `2024 Begonia Open`                    | https://view.livechesscloud.com/#d19960e4-e61b-40d7-a6a5-3d7cd68eb66a | 7      | 70    |
 
-"Two places where each game is saved"
+
+"Two places where game may be/is saved"
 - in "One PGN per game folder" [/games/all_games]
 - in "One PGN per tournament folder" [/games/tournaments]
 
+[More details see](Tournament_games_download.md)
 
  # ⭐ Chess Preparation Tools - Technical section   
-
-"Note to self" ...
-
 
 ## Roadmap
 
@@ -108,7 +106,7 @@ User Interface versions:
 :chess_pawn:
 :chess_queen:
 
-#### ToDo 
+#### ToDo - fix
 
 *  [ ] Move times not included, add and make it option 
 *  [ ] Settings file 
