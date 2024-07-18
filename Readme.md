@@ -16,30 +16,29 @@ Status: work in progress
 ### Roadmap
 
 * [ ] A. Download and process gemes of a tournament for given link to livechesscloud 
-    [x] Get all games for all rounds
+*   [x] Get all games for all rounds
+*   [x] Get only games for specified player name
+*   [ ] Add ECO codes info to game
+*   [ ] Add FIDE/ACF rating
+*   [ ] Add game info to SQLite database
+*   [ ] tbd 
 
-    [x] Get only games for specified player name
-
-    [ ] Add ECO codes info to game
-
-    [ ] Add FIDE/ACF rating
-
-    [ ] Add game info to SQLite database
-
-    [ ] tbd 
+User Interface versions:
+* [ ] GUI (tkinter)
+* [ ] CLI (command line)
 
 #### ToDo 
-  [ ] Move times not included, add and make it option 
-  
-  [ ] Settings file 
-  
-  [ ] GUI make prettier 
-  
-  [ ] Add CLI application wrapper to download games  
+
+*  [ ] Move times not included, add and make it option 
+*  [ ] Settings file 
+*  [ ] GUI make prettier 
+*  [ ] Add CLI application wrapper to download games  
   
 
 
-### Samples 
+### Already downloaded (games collection) 
+
+#### Source tournaments 
 
 Download chess games from https://view.livechesscloud.com
 
