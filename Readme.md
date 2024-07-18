@@ -44,6 +44,8 @@ how to run:
 
 [First GUI, very Spartan looking](./doc/downloader_v_0_1.png)
 
+![image info](doc/ownloader_v_0_1.png)
+
 [GUI#github ](https://github.com/dusan-dakic/chess_prep_tools/blob/main/doc/downloader_v_0_1.png)
 
 Minimum Instructions: 
