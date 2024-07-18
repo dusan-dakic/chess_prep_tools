@@ -73,7 +73,7 @@ The full list of tournaments & games downloaded is [click here](Tournament_games
 | `2023 MCC Clasic Round Robin`          | 9      | 18    |                     |                     |                                     
 | `2024 Chess Artists Alegro`            | 7      | 11*   |                     |                     |                                     
 | `2024 Victorian Open`                  | 7      | 28    |                     |                     |                                     
-| `2024 Begonia Open`                    | 7      | 70    |                     | [click here](games\tournaments\Begonia Open 2024.pgn)|    
+| `2024 Begonia Open`                    | 7      | 70    |                     | [click here](https://github.com/dusan-dakic/chess_prep_tools/blob/main/games/tournaments/Begonia Open 2024.pgn)|    
 
 
 "Two places where game may be/is saved"
@@ -117,14 +117,8 @@ User Interface versions:
 *  [ ] Add CLI application wrapper to download games  
   
 
-
+<!--
 ### Notes
 
-
-Other
-=====
-
-Markdown syntax 
----------------
-
 https://www.markdownguide.org/basic-syntax/
+-->
