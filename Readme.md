@@ -1,5 +1,5 @@
 
-# Chess Preparation Tools 
+# ⭐ Chess Preparation Tools 
 
 as in tools to help with preparation for Chess tournament games
 
@@ -11,21 +11,30 @@ Status: work in progress
 ------------------------
 
 
-## 'DGT downloader' Download pgn from LiveChess URL
+## :chess_pawn: 'DGT downloader' Download pgn from LiveChess URL
 
 ### Roadmap
 
 * [ ] A. Download and process gemes of a tournament for given link to livechesscloud 
-*   [x] Get all games for all rounds
-*   [x] Get only games for specified player name
+*   [x] 📋 Get all games for all rounds
+*   [x] 🔍 Get only games for specified player name
 *   [ ] Add ECO codes info to game
 *   [ ] Add FIDE/ACF rating
 *   [ ] Add game info to SQLite database
 *   [ ] tbd 
 
 User Interface versions:
-* [ ] GUI (tkinter)
+* [ ] 🚀 GUI (tkinter)
 * [ ] CLI (command line)
+
+:white_check_mark:
+:heavy_check_mark:
+:x:
+:negative_squared_cross_mark:
+:a:
+:zero::nine:
+:chess_pawn:
+:chess_queen:
 
 #### ToDo 
 
