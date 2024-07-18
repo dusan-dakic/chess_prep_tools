@@ -30,7 +30,11 @@ You might not want png file names in the current naming format, given metadata f
 * [ ] rename filename format for individual game 
 * [ ] remove move times 
 
-![Issues](doc\downloader_v_0_2_for_improvement.png)
+![Issues](https://github.com/dusan-dakic/chess_prep_tools/blob/main)
+
+<!--doc\downloader_v_0_2_for_improvement.png)
+-->
+
 * [ ] ECO, Opening and Variation, not determined during download and not embeded into PGN, arena does determine it on load 
 * [ ] Players rating at the time game was played - ELO White, ELO Black 
 * [ ] Game details 

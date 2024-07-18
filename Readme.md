@@ -63,7 +63,7 @@ Other options:
 
 Some games were already downloaded so you can just grab them from *games* folder, and do not need to download them yourself
 
-The full list of tournaments & games downloaded is here:
+The full list of tournaments & games downloaded is [click here](Tournament_games_download.md):
 
 | Tournament                             | Link                                                                  | Rounds | Games |
 | -------------------------------------- | --------------------------------------------------------------------- | -------| ----- |
@@ -79,7 +79,7 @@ The full list of tournaments & games downloaded is here:
 - in "One PGN per game folder" [/games/all_games]
 - in "One PGN per tournament folder" [/games/tournaments]
 
-[More details see](Tournament_games_download.md)
+
 
  # ⭐ Chess Preparation Tools - Technical section   
 
@@ -97,6 +97,7 @@ User Interface versions:
 * [ ] 🚀 GUI (tkinter)
 * [ ] CLI (command line)
 
+<!--
 :white_check_mark:
 :heavy_check_mark:
 :x:
@@ -105,6 +106,7 @@ User Interface versions:
 :nine:
 :chess_pawn:
 :chess_queen:
+-->
 
 #### ToDo - fix
 
