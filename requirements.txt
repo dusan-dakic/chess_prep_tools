@@ -1,0 +1,6 @@
+# Requirements File Format
+# https://pip.pypa.io/en/stable/reference/requirements-file-format/
+# TO INSTALL:
+# pip install -r requirements.txt
+selenium==4.22.0
+requests==2.25.0

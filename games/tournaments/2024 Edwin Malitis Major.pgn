@@ -1,0 +1,65 @@
+[ePGN "0.1;DGT LiveChess/2.2.5"]
+[Event "2024 Edwin Malitis Major"]
+[Site "None, None"]
+[White "Thai,Ly"]
+[Black "FM Kai Jie,Soo"]
+[Result "0-1"]
+[TimeControl "90 minutes +30 seconds increment"]
+[WhiteFideId "<lookup_FIDE_id:Thai,Ly>"][BlackFideId "<lookup_FIDE_id:FM Kai Jie,Soo>"][WhiteElo "<lookup_FIDE_ELO:Thai,Ly>"][BlackElo "<lookup_FIDE_ELO:FM Kai Jie,Soo>"][Termination "normal"]
+[PlyCount "64"]
+
+1. Nf3 c5 2. c4 Nc6 3. Nc3 g6 4. g3 Bg7 5. Bg2 e6 6. a3 Nge7 7. Rb1 d5 8. d3 dxc4 9. dxc4 Bxc3+ 10. 
+bxc3 Qxd1+ 11. Kxd1 f6 12. Nd2 Kf7 13. Ne4 Rd8+ 14. Kc2 b6 15. Rd1 Rxd1 16. Kxd1 Ba6 17. Nd6+ Kg8 18. 
+Kc2 Rd8 19. Nb5 Rd7 20. e4 Ne5 21. Bf1 Bb7 22. Bg2 Bc6 23. Kb3 a6 24. a4 axb5 25. cxb5 Bb7 26. f4 Nd3 27. 
+Bh3 Kf7 28. e5 fxe5 29. fxe5 Nxe5 30. Bg5 Bd5+ 31. Kb2 Nc4+ 32. Ka1 Ra7 0-1
+
+[ePGN "0.1;DGT LiveChess/2.2.5"]
+[Event "2024 Edwin Malitis Major"]
+[Site "None, None"]
+[White "FM Cheng,Dai"]
+[Black "Daniel,Poberezovsky"]
+[Result "1-0"]
+[TimeControl "90 minutes +30 seconds increment"]
+[WhiteFideId "<lookup_FIDE_id:FM Cheng,Dai>"][BlackFideId "<lookup_FIDE_id:Daniel,Poberezovsky>"][WhiteElo "<lookup_FIDE_ELO:FM Cheng,Dai>"][BlackElo "<lookup_FIDE_ELO:Daniel,Poberezovsky>"][Termination "normal"]
+[PlyCount "93"]
+
+1. Nf3 Nf6 2. d4 c5 3. g3 cxd4 4. Nxd4 Nc6 5. Bg2 g6 6. O-O Bg7 7. c4 O-O 8. Nc3 Nxd4 9. Qxd4 d6 10. 
+Qd2 Qa5 11. Nd5 Qd8 12. Rb1 Bf5 13. Nxf6+ Bxf6 14. e4 Be6 15. b3 Qc7 16. Bb2 Be5 17. Rbc1 Rfd8 18. f4 Qc5+ 19. 
+Rf2 Bxb2 20. Qxb2 a5 21. Rcf1 f6 22. e5 dxe5 23. fxe5 f5 24. Kh1 Rd4 25. Bxb7 Rb8 26. Bg2 a4 27. Qc3 Rbd8 28. 
+Qe3 Qa5 29. h3 Rd3 30. Qg5 Qc5 31. g4 fxg4 32. hxg4 axb3 33. Qh6 Qc8 34. axb3 Rd1 35. Qf4 R8d4 36. 
+Qf8+ Qxf8 37. Rxf8+ Kg7 38. Rxd1 Rxd1+ 39. Rf1 Rd3 40. Rf3 Rd1+ 41. Kh2 Bxg4 42. Rc3 Be6 43. c5 Rb1 44. 
+c6 h5 45. Bh3 Rb2+ 46. Kg3 Bxh3 47. Kxh3 1-0
+
+[ePGN "0.1;DGT LiveChess/2.2.5"]
+[Event "2024 Edwin Malitis Major"]
+[Site "None, None"]
+[White "FM Kai Jie,Soo"]
+[Black "CM Arthur,Gao"]
+[Result "1-0"]
+[TimeControl "90 minutes +30 seconds increment"]
+[WhiteFideId "<lookup_FIDE_id:FM Kai Jie,Soo>"][BlackFideId "<lookup_FIDE_id:CM Arthur,Gao>"][WhiteElo "<lookup_FIDE_ELO:FM Kai Jie,Soo>"][BlackElo "<lookup_FIDE_ELO:CM Arthur,Gao>"][Termination "normal"]
+[PlyCount "95"]
+
+1. d4 Nf6 2. c4 g6 3. g3 c6 4. Bg2 d5 5. Qa4 dxc4 6. Qxc4 Bg7 7. Nf3 O-O 8. O-O Bf5 9. b3 Nbd7 10. 
+Bb2 Qa5 11. Rd1 Nb6 12. Qc1 Rfd8 13. Nh4 Be4 14. f3 Bd5 15. Nc3 Be6 16. f4 c5 17. f5 cxd4 18. fxe6 dxc3 19. 
+exf7+ Kxf7 20. Qxc3 Qxc3 21. Bxc3 Nfd5 22. Bxg7 Kxg7 23. Rac1 Nc3 24. Rxd8 Nxe2+ 25. Kf2 Nxc1 26. 
+Rd2 Rc8 27. Bxb7 Rc7 28. Be4 Rd7 29. Rxd7 Nxd7 30. Bb1 Nc5 31. Ke3 Kf6 32. Kd2 N1xb3+ 33. axb3 Nxb3+ 34. 
+Kc3 Nc5 35. Kc4 Nd7 36. Nf3 Ne5+ 37. Nxe5 Kxe5 38. Kd3 a5 39. Bc2 Kf5 40. h3 h5 41. Kd4+ Kf6 42. Ke4 Ke6 43. 
+Ba4 Kf6 44. Bd7 e6 45. Be8 h4 46. g4 Ke7 47. Bxg6 a4 48. Ke5 1-0
+
+[ePGN "0.1;DGT LiveChess/2.2.5"]
+[Event "2024 Edwin Malitis Major"]
+[Site "None, None"]
+[White "CM Rheyansh,Annapureddy"]
+[Black "FM Cheng,Dai"]
+[Result "0-1"]
+[TimeControl "90 minutes +30 seconds increment"]
+[WhiteFideId "<lookup_FIDE_id:CM Rheyansh,Annapureddy>"][BlackFideId "<lookup_FIDE_id:FM Cheng,Dai>"][WhiteElo "<lookup_FIDE_ELO:CM Rheyansh,Annapureddy>"][BlackElo "<lookup_FIDE_ELO:FM Cheng,Dai>"][Termination "normal"]
+[PlyCount "73"]
+
+1. e4 c6 2. d4 d5 3. exd5 cxd5 4. Bd3 Nc6 5. c3 Qc7 6. h3 Nf6 7. Nf3 g6 8. O-O Bf5 9. Re1 Bxd3 10. 
+Qxd3 Bg7 11. Ne5 O-O 12. Bf4 Qb6 13. Nd2 e6 14. Rab1 Nxe5 15. Bxe5 Rac8 16. Bxf6 Bxf6 17. f4 Qd6 18. 
+Rf1 Bg7 19. Rf3 Rc6 20. g4 a6 21. Rbf1 b5 22. a3 a5 23. Nb3 Qc7 24. Nc5 Rb8 25. b4 Qa7 26. h4 axb4 27. cxb4 Qe7 28. 
+Rh3 Qf6 29. Nb3 Rc4 30. f5 exf5 31. gxf5 Ra8 32. Qg3 Qb6 33. h5 Rxa3 34. hxg6 hxg6 35. f6 Rxb3 36. 
+Qxb3 Bxf6 37. Qf3 0-1
+

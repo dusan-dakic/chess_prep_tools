@@ -82,7 +82,9 @@ The full list of tournaments & games downloaded is [click here](Tournament_games
 | `2024 Chess Artists Alegro`            | 7      | 11*   |                     |                     |                                     
 | `2024 Victorian Open`                  | 7      | 28    |                     |                     |                                     
 | `2024 Begonia Open`                    | 7      | 70    |                     | [click here](https://github.com/dusan-dakic/chess_prep_tools/blob/main/games/tournaments/Begonia%20Open%202024.pgn)|    
+| `2024 Edwin Malitis Major`  *          | 7      | 70    |                     | [click here]()|    
 
+'*' - in progress, at 22/07 3 rounds completed  
 
 "Two places where game may be/is saved"
 - in "One PGN per game folder" [/games/all_games]
@@ -97,6 +99,7 @@ The full list of tournaments & games downloaded is [click here](Tournament_games
 * [ ] A. Download and process gemes of a tournament for given link to livechesscloud 
 *   [x] 📋 Get all games for all rounds
 *   [x] 🔍 Get only games for specified player name
+*   [ ] 🔍 Get games for next round / specified round
 *   [ ] Add ECO codes info to game
 *   [ ] Add FIDE/ACF rating
 *   [ ] Add game info to SQLite database
