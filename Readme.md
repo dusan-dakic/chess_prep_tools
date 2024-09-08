@@ -1,10 +1,10 @@
 
 # :chess_pawn: Chess Game Preparation Tools 
 
-Tools to help with Chess match preparation or study.
+Tool(s) to help with Chess match preparation or study.
 
-:one: 
-Electronic DGT board (recorded) game downloader "dgtfetch". 
+ 
+## :one: Electronic DGT board (recorded) game downloader "dgtfetch". 
 
 Electronic chess board are increasingly used to capture chess games at tournaments. Most prominent is DGT which also alows tournament arbiter to publish games on the LiveChess Cloud. 
 While DGT's Chess Games viewer is fine web app, at this point in time (July 2024) it does not allow for easy download of the game moves in pgn format. So a chess player who might want to download the game(s) in .pgn (portable game notation) format for analysis or future reference can manually re-type the game ... fine workaround if just few games are in question. 
@@ -19,7 +19,7 @@ I. post-processing of the pgn
 
 As hinted above, the motivation for writting this tool was automation of the extraction of the game moves. Notably the DGT board owner (typically tournament organizer) has access to functions to export and publish the games to his own website. However chess player who wants to get game moves, at present has no such option. In June 2024 I have searched with Google for any pre-existing solution for this minor annoyancem but did not find the code or tool thay would be helpful in that respect. 
 
-To illustrate, this is a screenshot of the Webapp User Interface as at 09/09/2024 
+To illustrate, this is a screenshot of the Webapp User Interface as at 08/Sep/2024 
 
 ![Example](https://github.com/dusan-dakic/chess_prep_tools/blob/main/doc/livechesscluod-ui-illustration.png)
 
@@ -34,17 +34,59 @@ UI Elements
 8. Game result, if completed 
 9. User interface controls to go to the start/end of the game; previous/next move; previous/next board; flip board; expand to full screen
 
-Recently a new type of WebApp appeared at 'Best in the West 2024'  tournament and it also does not allow easy way to get game in pgn format, but gives Stockfish game evaluation ... see: https://live.hobsonsbaychess.com/tournament/bitw2024
+
+Recently a new type of WebApp appeared at 'Best in the West 2024'  tournament and it also does not allow easy way to get game in pgn format, and provides Stockfish game evaluation ... see: https://live.hobsonsbaychess.com/tournament/bitw2024
 
 ![Example](https://github.com/dusan-dakic/chess_prep_tools/blob/main/doc/bitw-ui-illustration.png)
 
+ 
+
+## :two: Diagramming Chess position recieved in FEN format 
 
 
-:two: 
+### a. as a picture 
 
-Anotating Chess position in FEN format to a picture 
 ![Example](https://github.com/dusan-dakic/chess_prep_tools/blob/main/doc/scandi_output.png)
 
+
+### b. as a unicode text 
+
+(ToDo List)
+![Chess Informant Style Example](https://github.com/dusan-dakic/chess_prep_tools/blob/main/doc/Chess_Informant_Style_Textbook.png)
+
+see: https://en.wikipedia.org/wiki/Chess_symbols_in_Unicode
+
+<!--
+1♜♞♝♛♚♝♞♜
+2♟♟♟♟♟♟♟♟
+3⬜⬛⬜⬛⬜⬛⬜⬛
+4⬛⬜⬛⬜⬛⬜⬛⬜
+5⬜⬛⬜⬛⬜⬛⬜⬛
+6⬛⬜⬛⬜⬛⬜⬛⬜
+7♙♙♙♙♙♙♙♙
+8♖♘♗♕♔♗♘♖
+ a b c d e f g h
+
+8♜♞♝♛♚♝♞♜
+7♟♟♟♟♟♟♟♟
+6▱▰▱▰▱▰▱▰
+5▰▱▰▱▰▱▰▱
+4▱▰▱▰▱▰▱▰
+3▰▱▰▱▰▱▰▱
+2♙♙♙♙♙♙♙♙
+1♖♘♗♕♔♗♘♖
+a b c d e f g h
+
+8	♜	♞	♝	♛	♚	♝	♞	♜
+7	♟	♟	♟	♟	♟	♟	♟	♟
+6	
+5	
+4	
+3	
+2	♙	♙	♙	♙	♙	♙	♙	♙
+1	♖	♘	♗	♕	♔	♗	♘	♖
+a	b	c	d	e	f	g	h
+-->
 
 
 ## **📋 Requirements**
@@ -143,20 +185,29 @@ The full list of tournaments & games downloaded is [click here](Tournament_games
 
 ## Roadmap
 
-* [ ] A. Download and process gemes of a tournament for given link to livechesscloud 
+* [ ] A. Download and process games of a tournament for given link to livechesscloud 
 *   [x] 📋 Get all games for all rounds
 *   [x] 🔍 Get only games for specified player name
 *   [ ] 🔍 Get games for next round / specified round
 *   [ ] Add ECO codes info to game
 *   [ ] Add FIDE/ACF rating
+
+* [ ] B. Game collection, annotation and analysis   
 *   [ ] Add game info to SQLite database
-*   [ ] Add SQL database to store Player Ratings, Games
+*   [ ] Add SQL tables to store Player Ratings, Games, Tournaments, etc  
 *   [ ] Extend Python with attrs, SQLalchemy
+*   [ ] Extract FEN for any/final position of the game
+*   [ ] Produce position diagram for given FEN 
+
    
 
 User Interface versions:
-* [ ] 🚀 GUI (tkinter)
+* [x] 🚀 GUI (tkinter)
+  * [x] v 0.4 add button to select folder destination for pgn output 
+  * [ ] v 0.5 
 * [ ] CLI (command line)
+  * [ ] v 0.1 replicate all functions present in GUI version 
+  
 
 <!--
 :white_check_mark:
@@ -171,10 +222,10 @@ User Interface versions:
 
 #### ToDo - fix
 
-*  [ ] Move times not included, add and make it option 
-*  [ ] Settings file 
-*  [ ] GUI make prettier 
-*  [ ] Add CLI application wrapper to download games  
+*  [ ] Move times not included, add and make it selectable option in GUI/settings file
+*  [ ] Settings file (editor)
+*  [ ] GUI make prettier with ttk or CustomTkinter
+*  [ ] Add CLI application for downloading games  
   
 
 <!--
