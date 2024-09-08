@@ -1,5 +1,9 @@
 """
-  
+First version with hardcoded data ... placeholder really. 
+
+TODO: script to get data from official web site; possible challenge - getting ELO rating as at a point at time 
+(ELO rating that player had when game was played), since ELO rating changes monthly, based on results for previous month played games 
+
 """
 
 def getFIDEInfo(player:str, game_date:str, ratingtype:str ='STD'):
@@ -32,10 +36,9 @@ def getFIDEInfo(player:str, game_date:str, ratingtype:str ='STD'):
 
         FIDEtitle="Candidate Master"
     else:
+
         FIDEid = f'<lookup_FIDE_id:{player}>'
         ratingELO=f'<lookup_FIDE_ELO:{player}>'
         FIDEtitle=f'<lookup_FIDE_title:{player}>'
-
-
 
     return FIDEid, ratingELO, FIDEtitle

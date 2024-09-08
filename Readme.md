@@ -1,31 +1,66 @@
 
 # :chess_pawn: Chess Game Preparation Tools 
 
-Tools to help with Chess preparation or study.
+Tools to help with Chess match preparation or study.
 
 :one: 
-DGT game downloader. 
-Electronic chess board are increasingly used to capture competitive (rated) chess games. Most prominent is CGT which also alows tournament arbiter to publish games on the Cloud. 
-While CGT's Chess Games viewer is fine web app, at this point in time (2024) it does not allow for easy download of the game moves, and yet a chess player might want to download the game(s) in .pgn (portable game notation) format for analysis or future reference. 
+Electronic DGT board (recorded) game downloader "dgtfetch". 
 
-This tool main function is to fetch game(s) from DGT's Live Cloud and save in .pgn format to local user's disk.
+Electronic chess board are increasingly used to capture chess games at tournaments. Most prominent is DGT which also alows tournament arbiter to publish games on the LiveChess Cloud. 
+While DGT's Chess Games viewer is fine web app, at this point in time (July 2024) it does not allow for easy download of the game moves in pgn format. So a chess player who might want to download the game(s) in .pgn (portable game notation) format for analysis or future reference can manually re-type the game ... fine workaround if just few games are in question. 
+
+This tool main function is to fetch game(s) from DGT's LiveChess Cloud and save in .pgn format to local user's disk.
+
+As hinted above, the motivation for writting this tool was automation of the extraction of the game moves, notably the DGT board owner has access to functions to export and publish the games to his own website, but chess player who wants to get game(s) of his oponents - has no such option, so getting pgn of the game was not easy, and at the time searching with Google I did not find the code or tool thay would be help in that respect. 
+
+As illustration, this is a screenshot of the User Interface as at 09/09/2024 
+![Example](https://github.com/dusan-dakic/chess_prep_tools/blob/main/doc/slivechesscluod-ui-illustration.png)
+
+1. LiveChess website address 
+2. ID of the tournament aws part of the URL 
+3. Tournament title 
+4. Game players info 
+5. DGT info for Round and DGT board 
+6. Time on chess clock at the position shown on the browser canvas 
+7. Game moves in scrolable panel 
+8. Game result, if completed 
+9. User interface controls to go to the start/end of the game; previous/next move; previous/next board; flip board; expand to full screen
+
+
+
 
 :two: 
+
 Anotating Chess position in FEN format to a picture 
-![Example](https://github.com/dusan-dakic/chess_prep_tools/blob/main/scandi_output.png)
+![Example](https://github.com/dusan-dakic/chess_prep_tools/blob/main/doc/scandi_output.png)
 
 
 
 ## **📋 Requirements**
 
+### To run scripts using Python: 
 - Python version 3.11.5 ([Click here](https://www.python.org/ftp/python/3.11.5/python-3.11.5-amd64.exe))
-- additional Python components: {to do}
+- additional Python components: requirements.txt
 
-## **🛠️ Installation**
+```
+# pip install -r requirements.txt
+```
+
+### To run executable on Windows, Linux
+
+Work in progress ... I'm not keen on bying certificate just to build Exe for Windows*, testing pyinstaller approach.
+Windows classifies everything as malware, so that is annoying.  
+
+
+
+## **🛠️ Installation (to run with local Python interpreter) **
 
 To install tool, follow these steps:
 - [ ] clone this repo to your local disk, foe example from Command Line type 
     git clone https://github.com/dusan-dakic/chess_prep_tools.git
+- [ ] in command line type `CD  chess_prep_tools\dgtfetch`
+- [ ] in command line type `python dgtfetch\dgt-dl.py` and in form shown supply toutnament ID and other option as desired.
+
 
 
 ## ⭐ 'DGT game downloader'
@@ -103,7 +138,9 @@ The full list of tournaments & games downloaded is [click here](Tournament_games
 *   [ ] Add ECO codes info to game
 *   [ ] Add FIDE/ACF rating
 *   [ ] Add game info to SQLite database
-*   [ ] tbd 
+*   [ ] Add SQL database to store Player Ratings, Games
+*   [ ] Extend Python with attrs, SQLalchemy
+   
 
 User Interface versions:
 * [ ] 🚀 GUI (tkinter)
