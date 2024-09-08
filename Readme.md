@@ -9,13 +9,21 @@ Electronic DGT board (recorded) game downloader "dgtfetch".
 Electronic chess board are increasingly used to capture chess games at tournaments. Most prominent is DGT which also alows tournament arbiter to publish games on the LiveChess Cloud. 
 While DGT's Chess Games viewer is fine web app, at this point in time (July 2024) it does not allow for easy download of the game moves in pgn format. So a chess player who might want to download the game(s) in .pgn (portable game notation) format for analysis or future reference can manually re-type the game ... fine workaround if just few games are in question. 
 
-This tool main function is to fetch game(s) from DGT's LiveChess Cloud and save in .pgn format to local user's disk.
+So this tool main function is to fetch game(s) from DGT's LiveChess Cloud and save in .pgn format to local user's disk.
+Additional functions (to be added later) are:
+I. post-processing of the pgn 
+  1. process the game and detect issues (e.g. impossible/incorrect moves: rare but few were observed)
+  2. detect Chess opening and add to pgn header 
+  3. add player FIDE rating if found on FIDE's website  
 
-As hinted above, the motivation for writting this tool was automation of the extraction of the game moves, notably the DGT board owner has access to functions to export and publish the games to his own website, but chess player who wants to get game(s) of his oponents - has no such option, so getting pgn of the game was not easy, and at the time searching with Google I did not find the code or tool thay would be help in that respect. 
 
-As illustration, this is a screenshot of the User Interface as at 09/09/2024 
-![Example](https://github.com/dusan-dakic/chess_prep_tools/blob/main/doc/slivechesscluod-ui-illustration.png)
+As hinted above, the motivation for writting this tool was automation of the extraction of the game moves. Notably the DGT board owner (typically tournament organizer) has access to functions to export and publish the games to his own website. However chess player who wants to get game moves, at present has no such option. In June 2024 I have searched with Google for any pre-existing solution for this minor annoyancem but did not find the code or tool thay would be helpful in that respect. 
 
+To illustrate, this is a screenshot of the Webapp User Interface as at 09/09/2024 
+
+![Example](https://github.com/dusan-dakic/chess_prep_tools/blob/main/doc/livechesscluod-ui-illustration.png)
+
+UI Elements 
 1. LiveChess website address 
 2. ID of the tournament aws part of the URL 
 3. Tournament title 
@@ -26,6 +34,9 @@ As illustration, this is a screenshot of the User Interface as at 09/09/2024
 8. Game result, if completed 
 9. User interface controls to go to the start/end of the game; previous/next move; previous/next board; flip board; expand to full screen
 
+Recently a new type of WebApp appeared at 'Best in the West 2024'  tournament and it also does not allow easy way to get game in pgn format, but gives Stockfish game evaluation ... see: https://live.hobsonsbaychess.com/tournament/bitw2024
+
+![Example](https://github.com/dusan-dakic/chess_prep_tools/blob/main/doc/bitw-ui-illustration.png)
 
 
 
@@ -49,7 +60,7 @@ Anotating Chess position in FEN format to a picture
 ### To run executable on Windows, Linux
 
 Work in progress ... I'm not keen on bying certificate just to build Exe for Windows*, testing pyinstaller approach.
-Windows classifies everything as malware, so that is annoying.  
+It appeaqrs that Windows OS classifies everything as malware, so that is annoying.  
 
 
 
@@ -82,8 +93,9 @@ how to run:
 1. Open Command Prompt (Windows) or Terminal (MacOsX, Linux)
 2. Change to folder containing code e.g cd \downloaded_here 
 3. Run Python with downloader script like so 
-  python cgtdownload.py
-  
+  python dgt-dl.py
+
+or open VS code, open the project, select dgt-dl.py and hit F5 ...   
 
 <!-- [First GUI, very Spartan looking](./doc/downloader_v_0_1.png)-->
 
