@@ -222,10 +222,10 @@ User Interface versions:
 
 #### ToDo - fix
 
-*  [ ] Move times not included, add and make it option 
-*  [ ] Settings file 
-*  [ ] GUI make prettier 
-*  [ ] Add CLI application wrapper to download games  
+*  [ ] Move times not included, add and make it selectable option in GUI/settings file
+*  [ ] Settings file (editor)
+*  [ ] GUI make prettier with ttk or CustomTkinter
+*  [ ] Add CLI application for downloading games  
   
 
 <!--
