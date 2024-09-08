@@ -4,7 +4,7 @@
 Tools to help with Chess match preparation or study.
 
 :one: 
-Electronic DGT board (recorded) game downloader "dgtfetch". 
+## Electronic DGT board (recorded) game downloader "dgtfetch". 
 
 Electronic chess board are increasingly used to capture chess games at tournaments. Most prominent is DGT which also alows tournament arbiter to publish games on the LiveChess Cloud. 
 While DGT's Chess Games viewer is fine web app, at this point in time (July 2024) it does not allow for easy download of the game moves in pgn format. So a chess player who might want to download the game(s) in .pgn (portable game notation) format for analysis or future reference can manually re-type the game ... fine workaround if just few games are in question. 
@@ -38,12 +38,52 @@ Recently a new type of WebApp appeared at 'Best in the West 2024'  tournament an
 
 ![Example](https://github.com/dusan-dakic/chess_prep_tools/blob/main/doc/bitw-ui-illustration.png)
 
-
-
 :two: 
 
-Anotating Chess position in FEN format to a picture 
+## Diagramming Chess position recieved in FEN format 
+
+
+### a. as a picture 
+
 ![Example](https://github.com/dusan-dakic/chess_prep_tools/blob/main/doc/scandi_output.png)
+
+
+### b. as a unicode text 
+
+(ToDo List)
+![Chess Informant Style Example](https://github.com/dusan-dakic/chess_prep_tools/blob/main/doc/Chess_Informant_Style_Textbook.png)
+
+see: https://en.wikipedia.org/wiki/Chess_symbols_in_Unicode
+
+1♜♞♝♛♚♝♞♜
+2♟♟♟♟♟♟♟♟
+3⬜⬛⬜⬛⬜⬛⬜⬛
+4⬛⬜⬛⬜⬛⬜⬛⬜
+5⬜⬛⬜⬛⬜⬛⬜⬛
+6⬛⬜⬛⬜⬛⬜⬛⬜
+7♙♙♙♙♙♙♙♙
+8♖♘♗♕♔♗♘♖
+ a b c d e f g h
+
+8♜♞♝♛♚♝♞♜
+7♟♟♟♟♟♟♟♟
+6▱▰▱▰▱▰▱▰
+5▰▱▰▱▰▱▰▱
+4▱▰▱▰▱▰▱▰
+3▰▱▰▱▰▱▰▱
+2♙♙♙♙♙♙♙♙
+1♖♘♗♕♔♗♘♖
+a b c d e f g h
+
+8	♜	♞	♝	♛	♚	♝	♞	♜
+7	♟	♟	♟	♟	♟	♟	♟	♟
+6	
+5	
+4	
+3	
+2	♙	♙	♙	♙	♙	♙	♙	♙
+1	♖	♘	♗	♕	♔	♗	♘	♖
+a	b	c	d	e	f	g	h
 
 
 
